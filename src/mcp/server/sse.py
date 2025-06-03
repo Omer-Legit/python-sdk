@@ -56,7 +56,8 @@ from mcp.shared.message import ServerMessageMetadata, SessionMessage
 
 logger = logging.getLogger(__name__)
 
-
+print("hello world")
+    
 class SseServerTransport:
     """
     SSE server transport for MCP. This class provides _two_ ASGI applications,
